@@ -11,7 +11,7 @@ module UnionpayLib
      cattr_accessor :pfx_file, :pfx_file_password, :ca_file, :merchant_no, 
                     :pkcs12, :x509_certificate, :env, :endpoint
 
-     ENDPOINT_DEV = 'https://101.231.204.80:5000/gateway/api/'
+     ENDPOINT_DEV = 'https://gateway.test.95516.com/gateway/api/'
      ENDPOINT_PRO = 'https://gateway.95516.com/gateway/api/'
 
      @@env = env['rack_env']; @@env ||= 'development'
